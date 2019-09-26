@@ -978,9 +978,9 @@ ul {
   }
 }
 
-.page-header .icon-lock::before {
-  content: "\1F512";
-  font-size: 20px;
+.page-header .icon-lock {
+  height: 20px;
+  width: 20px;
   position: relative;
   left: -5px;
   vertical-align: baseline;
@@ -1060,9 +1060,9 @@ ul {
   border: 1px solid #ddd;
 }
 
-.blocks-item-internal .icon-lock::before {
-  content: "\1F512";
-  font-size: 15px;
+.blocks-item-internal .icon-lock {
+  height: 15px;
+  width: 15px;
   bottom: 5px;
   position: relative;
 }
@@ -1162,7 +1162,7 @@ ul {
   color: $text_color;
 }
 
-.promoted-articles-item .icon-lock::before {
+.promoted-articles-item .icon-lock {
   vertical-align: baseline;
 }
 
@@ -1353,10 +1353,6 @@ ul {
   color: $text_color;
 }
 
-.article-list-item .icon-lock::before {
-  vertical-align: baseline;
-}
-
 .icon-star::before {
   color: $brand_color;
   font-size: 18px;
@@ -1480,9 +1476,7 @@ ul {
   }
 }
 
-.article-title .icon-lock::before {
-  content: "\1F512";
-  font-size: 20px;
+.article-title .icon-lock {
   position: relative;
   left: -5px;
   vertical-align: baseline;
@@ -3556,10 +3550,6 @@ ul {
   line-height: 1em;
   vertical-align: middle;
   -webkit-font-smoothing: antialiased;
-}
-
-.icon-lock::before {
-  content: "\1F512";
 }
 
 .icon-star::before {
