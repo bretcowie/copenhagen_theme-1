@@ -1711,15 +1711,6 @@ ul {
   text-decoration: none;
 }
 
-.article-return-to-top .icon-arrow-up::before {
-  font-size: 16px;
-  margin-left: 5px;
-}
-
-[dir="rtl"] .article-return-to-top .icon-arrow-up::before {
-  margin-right: 10px;
-}
-
 .article-unsubscribe {
   background-color: $brand_color;
   color: $brand_text_color;

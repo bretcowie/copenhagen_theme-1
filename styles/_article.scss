@@ -215,15 +215,6 @@
         text-decoration: none;
       }
     }
-
-    .icon-arrow-up::before {
-      font-size: 16px;
-      margin-left: 5px;
-
-      [dir="rtl"] & {
-        margin-right: 10px;
-      }
-    }
   }
 
   &-unsubscribe {
